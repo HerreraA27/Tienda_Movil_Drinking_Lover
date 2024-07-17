@@ -5,11 +5,12 @@ import { Ionicons } from '@expo/vector-icons';
 
 
 // Screens
-import HomeScreen from '../screens/HomeScreen';
-import CreditoFiscal from '../screens/CreditoFiscal';
-import Empleados from '../screens/Empleados';
-import FacturaConsumidorFinal from '../screens/FacturaConsumidorFinal';
-import FacturaSujetoExcluido from '../screens/FacturaSujetoExcluido';
+import Inicio from '../screens/inicio';
+import Editar_perfil from '../screens/editar_perfil';
+import Index from '../screens/index';
+import Productos from '../screens/productos';
+import Registrarse from '../screens/registrarse';
+import Carrito from '../screens/carrito';
 
 const Tab = createBottomTabNavigator();
 
