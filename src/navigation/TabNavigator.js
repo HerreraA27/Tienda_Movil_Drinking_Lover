@@ -41,29 +41,34 @@ const TabNavigator = () => {
     })}
   >
     <Tab.Screen
-      name="Home"
-      component={HomeScreen}
+      name="Inicio"
+      component={Inicio}
       options={{ title: 'Inicio' }}
     />
     <Tab.Screen
-        name="Credito Fiscal"
-        component={CreditoFiscal}
-        options={{ title: 'Credito Fiscal' }}
+        name="Editar_perfil"
+        component={Editar_perfil}
+        options={{ title: 'EditarPerfil' }}
       />
        <Tab.Screen
-        name="Empleados"
-        component={Empleados}
-        options={{ title: 'Empleados' }}
+        name="Index"
+        component={Index}
+        options={{ title: 'Index' }}
       />
        <Tab.Screen
-        name="FacturaConsumidorFinal"
-        component={FacturaConsumidorFinal}
-        options={{ title: 'ConsumidorFinal' }}
+        name="Productos"
+        component={Productos}
+        options={{ title: 'Productos' }}
       />
       <Tab.Screen
-        name="FacturaSujetoExcluido"
-        component={FacturaSujetoExcluido}
-        options={{ title: 'SujetoExcluido' }}
+        name="Registrarse"
+        component={Registrarse}
+        options={{ title: 'Registrarse' }}
+      />
+      <Tab.Screen
+        name="Carrito"
+        component={Carrito}
+        options={{ title: 'Carrito' }}
       />
   </Tab.Navigator>
   
